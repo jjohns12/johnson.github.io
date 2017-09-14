@@ -1,0 +1,163 @@
+body{
+    width: 100%;
+    margin:auto;
+    background-image: url("bbr.jpg");
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color:rgb(16, 238, 208);
+    width:100%;
+    position: fixed;
+    height:120px;
+    z-index: 100;
+   
+}
+
+.name{
+    float:left;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 32px;
+    color:white;
+    position: relative;
+    top:-30px;
+    left:-100px;
+}
+
+.nav li{
+    list-style: none;
+    float:left;
+    margin-left:20px;
+    font-family: 'Indie Flower', cursive;
+    padding-top:10px;
+    font-size:24px;
+}
+
+#navlinks a{
+    color:white;    
+}
+
+.nav{
+    float:right;
+}
+
+#quote{
+    font-family:'Indie Flower', cursive;
+    font-size: 24px;
+    color:white;
+    float: right;
+    padding: 5px;
+    border-top: 3px solid rgb(16, 238, 208);
+    border-bottom: 3px solid rgb(16, 238, 208);
+    width:300px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top:-210px;
+    
+     }
+
+#bio{
+    width:850px;
+    font-family:'Times New Roman',Arial, Helvetica, sans-serif,'Indie Flower', cursive;
+    color:white;
+    font-size:20px;
+    position: relative;
+    top:110px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#personal{
+    width:850px;
+    font-family:'Times New Roman',Arial,'Indie Flower', cursive;
+    color:white;
+    font-size:20px;
+    position: relative;
+    top:110px;
+    text-align: left;
+    margin-left: 30px;
+}
+    
+#resume{
+    position: relative;
+    top:120px;
+    text-align: left;
+    margin-left:30px;
+    
+}
+
+.work{
+color:white;
+font-family:'Indie Flower', cursive;
+font-size: 18px;
+margin-top: 5px;
+margin-left: 20px;
+}
+
+#imagelist{
+    position: relative;
+    top:100px;
+    
+}
+
+h2, h3{
+    text-align: left;
+    font-family:'Indie Flower', cursive;
+    color:white;
+    font-size:38px;
+}
+
+h2,h3{ position: relative;
+    left:100px;
+   }
+
+   #imagelist img:hover {
+    border: 5px solid rgb(16, 238, 208);
+    border-radius: 30%;
+}
+    
+
+
+  img{
+      border: 5px solid rgb(16, 238, 208);
+      position: relative;
+      top:120px;
+      left:215px;
+  }
+
+  h3 a{
+    color:white;   
+  }
+
+  #bio a,#personal a{
+    color:rgb(16, 238, 208);
+  }
+
+  .work{
+    color:white;
+    font-family:'Times New Roman','Indie Flower', cursive;
+    font-size: 18px;
+    position: relative;
+    top:-50px;
+    }
+
+    h3{
+        position: relative;
+        top:100px;
+    }
+
+    h2{position: relative;
+        top:125px;}
+
+        #navlinks a:hover{
+            color:#DF731B;  
+        }
+
+        #bio a:hover, #personal a:hover, h3 a:hover{
+            color:#DF731B;
+        }

@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    margin:auto;
+    background-image: url("bbr.jpg");
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color:rgb(16, 238, 208);
+    width:100%;
+    position: fixed;
+    height:120px;
+    z-index: 100;
+}
+
+.name{
+    float:left;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 32px;
+    color:white;
+    position: relative;
+    top:-78px;
+    left:-107px;
+}
+
+li{
+    list-style: none;
+    float:left;
+    margin-left:20px;
+    font-family: 'Indie Flower', cursive;
+    padding-top:10px;
+    font-size:24px;
+}
+
+#navlinks a{
+    color:white;    
+}
+
+.nav{
+    float:right;
+    position: relative;
+    top:-48px;
+}
+
+h2{color:white;
+    text-align: center;
+    font-family:'Indie Flower', cursive;
+    position: relative;
+    top:80px;
+    left:300px;
+    font-size:58px;
+    width:400px;
+}

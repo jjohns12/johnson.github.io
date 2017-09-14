@@ -1,0 +1,98 @@
+body{
+    width: 100%;
+    margin:auto;
+    background-image: url("bbr.jpg");
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color:rgb(16, 238, 208);
+    width:100%;
+    position: fixed;
+    height:120px;
+    z-index: 100;
+}
+
+.name{
+    float:left;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 32px;
+    color:white;
+    position: relative;
+    top:-30px;
+    left:-107px;
+}
+
+li{
+    list-style: none;
+    float:left;
+    margin-left:20px;
+    font-family: 'Indie Flower', cursive;
+    padding-top:10px;
+    font-size:24px;
+}
+
+#navlinks a{
+    color:white;    
+}
+
+.nav{
+    float:right;
+}
+
+#imagelist{
+font-size:15px;
+width: 710px;
+position: relative;  
+top:290px;
+left:420px;
+}
+
+#heading{
+    text-align: center;
+    font-family:'Indie Flower', cursive;
+    color:white;
+    font-size:28px;
+    position: relative; 
+    bottom:100px;
+}
+
+#imagelist img:hover {
+    filter: none;
+    border: 5px solid rgb(16, 238, 208);
+    border-radius: 30%;
+}
+    
+
+
+  img{
+      border: 5px solid rgb(245, 247, 246);
+      filter: grayscale(100%);
+  }
+
+  #piclinks a{
+    color:white;    
+}
+
+#piclinks {
+    position: relative;
+    top:-40px;
+    left:376px;
+ 
+    
+}
+
+#piclinks li {
+    padding: 30px;
+}
+
+#navlinks a:hover{
+    color:#DF731B;  
+}
